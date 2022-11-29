@@ -1,2 +1,2 @@
 include ':app'
-rootProject.name = "Habit Tracker 2020"
+rootProject.name = "Activity Checker 2022"

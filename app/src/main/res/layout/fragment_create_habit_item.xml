@@ -25,7 +25,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:backgroundTint="#26A69A"
-                android:hint="Habit title"
+                android:hint="Activity Name"
                 android:inputType="text"
                 android:textColor="@android:color/black"
                 android:textSize="20sp" />
@@ -36,7 +36,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:backgroundTint="#26A69A"
-                android:hint="Give it a short description"
+                android:hint="Description"
                 android:inputType="textShortMessage"
                 android:textColor="@android:color/black"
                 android:textSize="20sp" />
@@ -47,7 +47,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:background="@drawable/round_button"
-                android:backgroundTint="#EF5350"
+                android:backgroundTint="#50AFEF"
                 android:clickable="true"
                 android:focusable="true"
                 android:foreground="?android:attr/selectableItemBackground"
@@ -68,7 +68,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:background="@drawable/round_button"
-                android:backgroundTint="#42A5F5"
+                android:backgroundTint="#CE42F5"
                 android:clickable="true"
                 android:focusable="true"
                 android:foreground="?android:attr/selectableItemBackground"
@@ -95,7 +95,7 @@
                     android:layout_height="100dp"
                     android:layout_margin="10dp"
                     android:layout_weight="1"
-                    android:src="@drawable/tea_selected" />
+                    android:src="@drawable/food2" />
 
                 <ImageView
                     android:id="@+id/iv_fastFoodSelected"
@@ -103,15 +103,16 @@
                     android:layout_height="100dp"
                     android:layout_margin="10dp"
                     android:layout_weight="1"
-                    android:src="@drawable/fastfood_selected" />
-
+                    android:src="@drawable/food1" />
                 <ImageView
                     android:id="@+id/iv_smokingSelected"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
                     android:layout_margin="10dp"
                     android:layout_weight="1"
-                    android:src="@drawable/smoking_selected" />
+                    android:src="@drawable/food3" />
+
+
 
             </LinearLayout>
 
@@ -121,7 +122,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:background="@drawable/round_button"
-                android:backgroundTint="#26A69A"
+                android:backgroundTint="#A64A26"
                 android:clickable="true"
                 android:focusable="true"
                 android:foreground="?android:attr/selectableItemBackground"

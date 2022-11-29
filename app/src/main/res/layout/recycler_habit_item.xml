@@ -75,7 +75,7 @@
                 android:maxLines="4"
                 android:textColor="@android:color/black"
                 android:textSize="14sp"
-                tools:text="This is a test description the you can add to each item. It should be short though. 2 lines max*" />
+                tools:text="Sample description you can add to each item." />
 
             <TextView
                 android:id="@+id/tv_item_createdTimeStamp"
@@ -85,7 +85,7 @@
                 android:maxLines="2"
                 android:textColor="@android:color/black"
                 android:textSize="12sp"
-                tools:text="Created 12/12/20 at 20:00" />
+                tools:text="Created 11/12/22 at 20:00" />
 
 
         </LinearLayout>

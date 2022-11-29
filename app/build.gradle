@@ -10,7 +10,7 @@ android {
     buildToolsVersion "30.0.3"
 
     defaultConfig {
-        applicationId "com.federicocotogno.habittracker2020"
+        applicationId "com.group17.activitychecker2022"
         minSdkVersion 23
         targetSdkVersion 30
         versionCode 1
